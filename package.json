@@ -1,0 +1,28 @@
+{
+  "name": "clone-tabnews-",
+  "version": "1.0.0",
+  "description": "Implementação do https://www.tabnews.com.br para o https://curso.dev",
+  "homepage": "https://github.com/mandavt/clone-tabnews-#readme",
+  "bugs": {
+    "url": "https://github.com/mandavt/clone-tabnews-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandavt/clone-tabnews-.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "next": "^15.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
