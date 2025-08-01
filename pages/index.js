@@ -1,14 +1,16 @@
-﻿import React from 'react'
+import React from 'react'
+import styles from './styles.module.css'
 
 function Home() {
-    const [name, setName] = React.useState('')
 
-    return <>
-        <h1>Let's bora?</h1>
-        <Input />
-        <Button>Aoba</Button>
+return <>
+        <h1 className={styles.titulo}>Ooooiiii! Você veio mesmo!</h1>
+        <img className={styles.imagem} src='/gatinho-espiando.jpg' alt='gatinho-espiando'></img>
+        <h2 className={styles.subtitulo}>SEEEEXXXTOOU BEBÊ!</h2>
+        <img className={styles.imagem} src='/gatinho-pose.jpg' alt='gatinho-fazendo-pose'></img>
 
-        {/* <input type="text" value={name} onChange={event => setName(event.target.value)} /> */}
+        {/* <Input /> */}
+        {/* <Button>Aoba</Button> */}
     </>
 
 }
@@ -17,8 +19,8 @@ export function Button(props) {
     return <button>{props.children}</button>
 }
 
-export function Input() {
-    return <input type="text" />
-}
+// export function Input() {
+//     return <input type="text" />
+// }
 
 export default Home;

@@ -1,0 +1,16 @@
+﻿.titulo{
+    color: #ff3399;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.subtitulo{
+    color: #ff3399;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.imagem{
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+}
